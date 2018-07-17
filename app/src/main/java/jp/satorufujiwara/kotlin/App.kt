@@ -19,7 +19,7 @@ class App : DaggerApplication() {
     super.onCreate()
     applyAutoInjector()
     appLifecycleCallbacks.onCreate(this)
-    userViewModel.loginUserId.value = "satorufujiwara"
+    userViewModel.loginUserId.value = "a182820998"
   }
 
   override fun onTerminate() {
